@@ -10,4 +10,5 @@ for j in range(1, a):
   if sum(s) == j:
     print(j, end=' ')
   s = []
-    
+
+
