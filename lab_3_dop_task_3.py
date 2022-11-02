@@ -8,7 +8,6 @@ for i in range(row):
     for j in range(col): 
         a[i, j] = s[j]
     s.clear()
-
 print(a)
 
 for i in range(col): 
