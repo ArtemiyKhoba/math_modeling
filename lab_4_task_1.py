@@ -1,4 +1,10 @@
-length = int(input('Input lenght : '))
-arr = np.array 
-def middle_arithmetic(a, b): 
-    
+import numpy as np
+def middle(length):
+    s = 0
+    arr = np.zeros(length)
+    for i in range(length): 
+        s += arr[i]
+    return s / length
+
+
+print(middle(5))
