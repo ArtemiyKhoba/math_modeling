@@ -6,4 +6,3 @@ def middle(arr: np.ndarray[int]) -> float:
 
 arr = np.array([int(i) for i in input('Input array : ').split()])
 print(f'Arithmetical mean : {middle(arr)}')
-

@@ -1,13 +1,6 @@
-import numpy as np
+def func(a, b, N): 
+    for x in range(1, N):
+        if a > x ** 2 > b: 
+            return x ** 2
 
-def func(a, b, N):
-    x = np.linspace(a, b, N)
-    y = x ** 2
-    coords = np.zeros((N, 2))
-
-    for i in range(N): 
-        coords[i, 0] = x[i]
-        coords[i, 1] = y[i]
-    print(coords)
-
-func(-10, 10, 100)
+print(func(1, 5, 2))
