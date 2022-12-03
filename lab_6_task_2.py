@@ -21,7 +21,7 @@ def plotter(x0, x1, N, *args, **kwrgs):
     plt.savefig('pic_1.png')
 
 
-plotter(-10, 10, 0.1, 1, 0,  obj = 'hyperbola')
+plotter(-20, 10, 0.1, 1, 3, 6,obj = 'parabola')
 
     
 
